@@ -10,8 +10,6 @@ const resumeSchema = new mongoose.Schema({
         trim:true
     }
 
-}, {
-    timestamps:true
 })
 
 const Resume = mongoose.model('Resume', resumeSchema);
